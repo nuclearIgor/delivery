@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-conf
+data:
+  env: |
+    MONGO_DSN=mongodb+srv://nest-api:VRxv1vQRCFUZTFTg@cluster0.wojio4e.mongodb.net/?retryWrites=true&w=majority
+    KAFKA_CLIENT_ID=code-delivery
+    KAFKA_BROKER=pkc-ldjyd.southamerica-east1.gcp.confluent.cloud:9092
+    KAFKA_CONSUMER_GROUP_ID=code-delivery
+    security.protocol="SASL_SSL"
+    sasl.mechanisms="PLAIN"
+    KAFKA_SASL_USERNAME=XCLDRYM34OIECAIF
+    KAFKA_SASL_PASSWORD=xB19OUqGu4AwROtJO75YqDNDKudTjwhZJwz4gO6CxdRZSNaiUxuMpJrf3BBR3sC2
